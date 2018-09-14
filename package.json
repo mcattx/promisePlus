@@ -1,0 +1,38 @@
+{
+  "name": "promiseplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "mocha",
+    "officalTest": "promises-aplus-tests src/core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titancat/promisePlus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titancat/promisePlus/issues"
+  },
+  "homepage": "https://github.com/titancat/promisePlus#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb-es5": "^1.2.0",
+    "eslint-plugin-react": "^7.11.1",
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "dependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.5.0",
+    "mocha": "^5.2.0"
+  }
+}
